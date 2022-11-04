@@ -23,17 +23,11 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Get in Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>Entrar em Contato</h5>
+      <h2>Fale comigo</h2>
 
       <div className="container contact_container">
         <div className="contact_options">
-          <article className='contact_option' >
-            <MdOutlineEmail className='contact_option-icon' />
-            <h4>Email</h4>
-            <h5>alisson.honorato@live.com</h5>
-            <a href="mailto:alisson.honorato@live.com" rel="noreferrer" target='_blank'>Send a message</a>
-          </article>
           <article className='contact_option' >
             <MdOutlineEmail className='contact_option-icon' />
             <h4>Messenger</h4>
@@ -43,16 +37,15 @@ const Contact = () => {
           <article className='contact_option' >
             <BsWhatsapp className='contact_option-icon'/>
             <h4>Whatapp</h4>
-            <h5>123456789</h5>
-            <a href="https://api.whatsapp.com/send?phone=5548998264596" rel="noreferrer" target='_blank'>Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=5548996153670" rel="noreferrer" target='_blank'>Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT */}
         <form ref={form} onSubmit={sendEmail} >
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='Your Email' required/>
+          <input type="text" name='name' placeholder='Seu nome completo' required />
+          <input type="email" name='email' placeholder='Seu e-mail' required/>
           <textarea name='message'rows='7' placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary' >Send Message</button>
+          <button type='submit' className='btn btn-primary' >Enviar</button>
         </form>
       </div>
     </section>

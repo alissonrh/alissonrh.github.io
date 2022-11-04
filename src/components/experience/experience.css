@@ -40,6 +40,12 @@
   color: var(--color-primary)
 }
 
+.frase {
+  text-align: center;
+  color: var(--color-light);
+  margin-top: 1.5rem;
+}
+
 @media screen and (max-width: 1024px) {
   .experience_container {
     grid-template-columns: 1fr;

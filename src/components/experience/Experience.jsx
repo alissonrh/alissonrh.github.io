@@ -1,172 +1,103 @@
 import React from 'react';
 import './experience.css';
-import { BsPatchCheckFill } from 'react-icons/bs'
+import { BiCheckDouble } from 'react-icons/bi'
 
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
-
+      <h2>Experiência</h2>
+     
       <div className='container experience_container'>
         <div className="experience_frontend">
-          <h3>Frontend Development</h3>
+          <h3>Desenvolvimento Front End</h3>
           <div className="experience_content">
             <article className="experience_details">
-              <BsPatchCheckFill className="detais-icon" />
+              <BiCheckDouble className="detais-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="detais-icon" />
+              <BiCheckDouble className="detais-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="detais-icon" />
+              <BiCheckDouble className="detais-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Linguagem</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="detais-icon" />
-              <div>
-                <h4>Bootstrap</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="detais-icon" />
+              <BiCheckDouble className="detais-icon" />
               <div>
                 <h4>Tailwind</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Freamework</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="detais-icon" />
+              <BiCheckDouble className="detais-icon" />
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Freamework</small>
               </div>
             </article>
           </div>
         </div>
         {/*  <--  end --> */}
         <div className="experience_backend">
-          <h3>Backend Development</h3>
+          <h3>Desenvolvimento Back End</h3>
           <div className="experience_content">
             <article className="experience_details">
-              <BsPatchCheckFill className='detais-icon' />
+              <BiCheckDouble className='detais-icon' />
               <div>
-                <h4>Node JS</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Node.js</h4>
+                <small className='text-light'></small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className='detais-icon' />
+              <BiCheckDouble className='detais-icon' />
               <div>
                 <h4>MongoDB</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Banco de dados não-relacional</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className='detais-icon' />
-              <div>
-                <h4>PHP</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className='detais-icon' />
+              <BiCheckDouble className='detais-icon' />
               <div>
                 <h4>MySQL</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Banco de dados relacional</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className='detais-icon' />
+              <BiCheckDouble className='detais-icon' />
               <div>
-                <h4>Python</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Express.js</h4>
+                <small className='text-light'>framework para Node.js</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="detais-icon" />
+              <BiCheckDouble className="detais-icon" />
               <div>
-                <h4>React</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-          </div>
-        </div>
-          {/*  <--  end --> */}
-          <div className="experience_backend">
-          <h3>Backend Development</h3>
-          <div className="experience_content">
-            <article className="experience_details">
-              <BsPatchCheckFill className='detais-icon' />
-              <div>
-                <h4>Node JS</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Sequelize</h4>
+                <small className='text-light'>Object-relational mapping (ORM)</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className='detais-icon' />
+              <BiCheckDouble className="detais-icon" />
               <div>
-                <h4>MongoDB</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className='detais-icon' />
-              <div>
-                <h4>PHP</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className='detais-icon' />
-              <div>
-                <h4>MySQL</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className='detais-icon' />
-              <div>
-                <h4>Python</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="detais-icon" />
-              <div>
-                <h4>React</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className='detais-icon' />
-              <div>
-                <h4>Python</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="detais-icon" />
-              <div>
-                <h4>React</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>TypeScript</h4>
+                <small className='text-light'>Linguagem</small>
               </div>
             </article>
           </div>
         </div>
       </div>
+      <h3 className='frase'>Conheça todas minhas ferramentas acessando meu <a href='https://github.com/alissonrh' target='_blanck'>GitHub</a></h3>
     </section>
   )
 }

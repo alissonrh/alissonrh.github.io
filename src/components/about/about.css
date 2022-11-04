@@ -1,4 +1,5 @@
 .about_container {
+  
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
@@ -62,25 +63,11 @@
     margin: 0 auto 3rem;
   }
 
-  .about_cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-
-  #about {
-    margin-top: 75%;
-  }
-
-
   .about_content {
     text-align: center;
   }
 
   .about_content p {
     margin: 1.5rem 0;
-  }
-
-  #about {
-    margin-top: 75%;
   }
 }
