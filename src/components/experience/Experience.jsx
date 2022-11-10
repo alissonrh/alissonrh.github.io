@@ -56,7 +56,7 @@ const Experience = () => {
               <BiCheckDouble className='detais-icon' />
               <div>
                 <h4>Node.js</h4>
-                <small className='text-light'></small>
+                <small className='text-light'>JavaScript fora do navegador web</small>
               </div>
             </article>
             <article className="experience_details">
@@ -77,7 +77,7 @@ const Experience = () => {
               <BiCheckDouble className='detais-icon' />
               <div>
                 <h4>Express.js</h4>
-                <small className='text-light'>framework para Node.js</small>
+                <small className='text-light'>Framework para Node.js</small>
               </div>
             </article>
             <article className="experience_details">

@@ -33,7 +33,7 @@ const Portifolio = () => {
         </button>
         <button
           type="button"
-          onClick={() => setFilter('back')}
+          onClick={() => setFilter('backend')}
         >
           Back-End
         </button>
@@ -55,7 +55,7 @@ const Portifolio = () => {
                 <h3>{title}</h3>
                 <div className='portfolio_item-cta' >
                   <a href={github} rel="noreferrer" className='btn' target='_blank'>GitHub</a>
-                  <a href={link} rel="noreferrer" className='btn btn-primary' target='_blank'>Link</a>
+                  {link === '' ? null : <a href={link} rel="noreferrer" className='btn btn-primary' target='_blank'>Link</a>}
                 </div>
               </article>
             )
