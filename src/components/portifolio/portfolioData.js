@@ -15,7 +15,8 @@ const data = [
     image: IMG2,
     title: 'Projeto Wallet',
     github: 'https://github.com/alissonrh/wallet',
-    link: 'https://wallet-alissonrh.vercel.app/'
+    link: 'https://wallet-alissonrh.vercel.app/',
+    type: 'frontend'
   },
 ];
 

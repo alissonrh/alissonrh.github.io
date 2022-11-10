@@ -18,7 +18,7 @@ const About = () => {
         </div>
         <div className="about_content">
           <p>
-            Formado em Geologia pela Federal de Santa Catarina, durante a graduação, em projetos de iniciação cientifica que fui pesquisador, atuei na vertente das geotecnologias e tive a oportunidade de me aproximar do segmento tecnológico e me apaixonei por programação!
+            Sou formado em Geologia pela Universidade Federal de Santa Catarina e, durante a graduação, através de projetos de iniciação científica nas quais fui pesquisador, atuei na vertente das geotecnologias, tendo a oportunidade de me aproximar do segmento tecnológico e me apaixonei por programação!
             <br />
             <br />
             Hoje sou Desenvolvedor de Software Web, sou programador Full Stack, desenvolvo aplicações com React e Node.js. Busco aplicar a minha formação em Desenvolvimento de Software Web Full Stack, com o meu conhecimento em pesquisa e trabalho em grupo, para agregar valor a equipe que faço parte.
