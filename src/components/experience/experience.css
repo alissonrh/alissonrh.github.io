@@ -27,24 +27,27 @@
 .experience_content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
 }
 
 .experience_details {
-  display: flex;
-  gap: 1rem;
+  margin: auto;
+  margin-top: 0.8rem;
+  height: 50%;
+  width: 50%;
 }
 
-.detais-icon {
+/* .detais-icon {
   margin-top: 0.4rem;
   color: var(--color-primary)
-}
+} */
 
 .frase {
   text-align: center;
   color: var(--color-light);
   margin-top: 1.5rem;
 }
+
+
 
 @media screen and (max-width: 1024px) {
   .experience_container {
