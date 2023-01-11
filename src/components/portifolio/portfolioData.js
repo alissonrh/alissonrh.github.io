@@ -1,6 +1,7 @@
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
+import IMG4 from '../../assets/portfolio4.png'
 import API from '../../assets/api.jpg'
 
 const data = [
@@ -43,6 +44,14 @@ const data = [
     github: 'https://github.com/alissonrh/store-manager',
     link: '',
     type: 'backend'
+  },
+  {
+    id: 6,
+    image: IMG4,
+    title: 'React Map App',
+    github: 'https://github.com/alissonrh/map-app',
+    link: 'https://react-map-alisson.netlify.app/',
+    type: 'fullstack'
   },
 
 ];
