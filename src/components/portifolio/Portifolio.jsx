@@ -48,7 +48,8 @@ const Portifolio = () => {
       <div className="container portfolio_container">
         {
 
-          data.filter((projeto) => (filter === 'all' ? projeto : projeto.type === filter))
+          data.sort(() => Math.random() - 0.5)
+            .filter((projeto) => (filter === 'all' ? projeto : projeto.type === filter))
             .map(({ id, image, title, github, link }) => {
               return (
                 <article key={id} className='portfolio_items'>
