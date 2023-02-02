@@ -5,6 +5,7 @@ import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.png'
 import IMG9 from '../../assets/portfolio7.png'
+import IMG10 from '../../assets/portfolio8.png'
 import API from '../../assets/api.jpg'
 
 const data = [
@@ -85,6 +86,14 @@ const data = [
     image: API,
     title: 'Car Shop TS',
     github: 'https://github.com/alissonrh/car-shop-ts',
+    link: '',
+    type: 'backend'
+  },
+  {
+    id: 11,
+    image: IMG10,
+    title: 'Gerador de Relatório de Estoque',
+    github: 'https://github.com/alissonrh/report-generator-python',
     link: '',
     type: 'backend'
   },

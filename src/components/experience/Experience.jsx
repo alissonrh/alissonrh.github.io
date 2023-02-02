@@ -97,6 +97,14 @@ const Experience = () => {
                 <h4 align="center" >TypeScript</h4>
               </div>
             </article>
+            <article className="experience_details">
+              <div>
+
+                <img lign="center" alt="python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+
+                <h4 align="center" >Python</h4>
+              </div>
+            </article>
           </div>
         </div>
       </div>
@@ -106,3 +114,4 @@ const Experience = () => {
 }
 
 export default Experience
+/* https://devicon.dev/ */
