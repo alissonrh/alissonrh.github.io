@@ -1,6 +1,5 @@
 import React from 'react';
 import './experience.css';
-/* import { BiCheckDouble } from 'react-icons/bi' */
 
 const Experience = () => {
   return (
@@ -9,109 +8,111 @@ const Experience = () => {
 
       <div className='container experience_container'>
         <div className="experience_frontend">
-          <h3>Desenvolvimento Front End</h3>
+          <h3>Front-end</h3>
           <div className="experience_content">
             <article className="experience_details">
-              {/*          <BiCheckDouble className="detais-icon" /> */}
               <div>
-                <img align="center" alt="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></img>
-                <h4 align="center" >HTML</h4>
+                <img alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                <h4>HTML</h4>
               </div>
             </article>
             <article className="experience_details">
               <div>
-                <img align="center" alt="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></img>
-                <h4 align="center" >CSS</h4>
+                <img alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                <h4>CSS</h4>
               </div>
             </article>
             <article className="experience_details">
               <div>
-                <img align="center" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"></img>
-                <h4 align="center" >JavaScript</h4>
-              </div>
-
-            </article>
-            <article className="experience_details">
-              <div>
-                <img align="center" alt="TAILWIND" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"></img>
-                <h4 align="center" >Tailwind</h4>
+                <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                <h4>JavaScript</h4>
               </div>
             </article>
             <article className="experience_details">
               <div>
-                <img align="center" alt="REACT" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"></img>
-                <h4 align="center" >React</h4>
+                <img alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                <h4>TypeScript</h4>
               </div>
             </article>
             <article className="experience_details">
               <div>
-                <img align="center" alt="REDUX" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"></img>
-                <h4 align="center" >Redux</h4>
+                <img alt="Angular" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+                <h4>Angular</h4>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <img alt="RxJS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rxjs/rxjs-original.svg" />
+                <h4>RxJS</h4>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <img alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                <h4>React</h4>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <img alt="Tailwind CSS" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" />
+                <h4>Tailwind</h4>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <img alt="Figma" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+                <h4>Figma</h4>
               </div>
             </article>
           </div>
         </div>
-        {/*  <--  end --> */}
+
         <div className="experience_backend">
-          <h3>Desenvolvimento Back End</h3>
+          <h3>Back-end</h3>
           <div className="experience_content">
             <article className="experience_details">
               <div>
-                <img align="center" alt="NODE" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"></img>
-                <h4 align="center" >Node.js</h4>
+                <img alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                <h4>Python</h4>
               </div>
             </article>
             <article className="experience_details">
               <div>
-                <img align="center" alt="express" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
-                <h4 align="center">Express.js</h4>
+                <img alt="Django" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />
+                <h4>Django</h4>
               </div>
             </article>
             <article className="experience_details">
               <div>
-                <img align="center" alt="mongodb" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
-
-                <h4 align="center" >MongoDB</h4>
+                <img alt="Node.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                <h4>Node.js</h4>
               </div>
             </article>
             <article className="experience_details">
               <div>
-
-                <img align="center" alt="mysql" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-
-                <h4 align="center">MySQL</h4>
-              </div>
-            </article>
-
-            <article className="experience_details">
-              <div>
-                <img align="center" alt="Docker" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />
-                <h4 align="center" >Docker</h4>
+                <img alt="Docker" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
+                <h4>Docker</h4>
               </div>
             </article>
             <article className="experience_details">
               <div>
-
-                <img lign="center" alt="typescrpit" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-
-                <h4 align="center" >TypeScript</h4>
+                <img alt="MySQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+                <h4>MySQL</h4>
               </div>
             </article>
             <article className="experience_details">
               <div>
-
-                <img lign="center" alt="python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-
-                <h4 align="center" >Python</h4>
+                <img alt="MongoDB" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+                <h4>MongoDB</h4>
               </div>
             </article>
           </div>
         </div>
       </div>
-      <h3 className='frase'>Conheça todas as minhas habilidades acessando meu <a href='https://github.com/alissonrh' target='_blanck'>GitHub</a></h3>
+
+      <h3 className='frase'>Conheça todas as minhas habilidades acessando meu <a href='https://github.com/alissonrh' target='_blank' rel='noopener noreferrer'>GitHub</a></h3>
     </section>
   )
 }
 
-export default Experience
-/* https://devicon.dev/ */
+export default Experience;
