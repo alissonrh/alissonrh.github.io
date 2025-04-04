@@ -18,10 +18,13 @@ const About = () => {
         </div>
         <div className="about_content">
           <p>
-            Sou formado em Geologia pela Universidade Federal de Santa Catarina e, durante a graduação, através de projetos de iniciação científica nas quais fui pesquisador, atuei na vertente das geotecnologias, tendo a oportunidade de me aproximar do segmento tecnológico e me apaixonei por programação!
+            Olá! Me chamo Alisson Rech Honorato, sou desenvolvedor full stack com maior foco em front-end. Sou apaixonado por tecnologia, inovação e por soluções tecnologicas que realmente fazem a diferença na vida das pessoas.
             <br />
             <br />
-            Hoje sou Desenvolvedor de Software Web, sou programador Full Stack, desenvolvo aplicações com React e Node.js. Busco aplicar a minha formação em Desenvolvimento de Software Web Full Stack, com o meu conhecimento em pesquisa e trabalho em grupo, para agregar valor a equipe que faço parte. Tenho interesse em escalabilidade de aplicações, infraestrutura, Salesforce, Cloud, melhores práticas de desenvolvimento, TDD e BDD.
+            Gosto de escrever códigos limpos, interfaces bem pensadas e de aprender constantemente. Estou sempre buscando evoluir como desenvolvedor, estudando também back-end com Node.js, arquitetura de software e boas práticas para aplicações escaláveis e performáticas.
+            <br />
+            <br />
+            Meu objetivo? Me tornar um profissional cada vez mais completo, atuando em projetos que possomos crescer juntos.
           </p>
           <CTA />
         </div>
