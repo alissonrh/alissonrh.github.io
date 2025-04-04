@@ -14,16 +14,18 @@ const data = [
     image: IMG1,
     title: 'Trybe Futebol Clube',
     github: 'https://github.com/alissonrh/tfc',
-    link: 'https://tfc-vercel.vercel.app/leaderboard',
+    link: '',
     type: 'fullstack'
+    // 'https://tfc-vercel.vercel.app/leaderboard'
   },
   {
     id: 2,
     image: IMG2,
     title: 'Wallet',
     github: 'https://github.com/alissonrh/wallet',
-    link: 'https://wallet-alissonrh.vercel.app/',
+    link: '',
     type: 'frontend'
+    // https://wallet-alissonrh.vercel.app/
   },
   {
     id: 3,
@@ -38,64 +40,72 @@ const data = [
     image: IMG3,
     title: 'Shopping Cart',
     github: 'https://github.com/alissonrh/shopping-cart',
-    link: 'https://alissonrh.github.io/shopping-cart/',
+    link: '',
     type: 'frontend'
+    //https://alissonrh.github.io/shopping-cart/
   },
   {
     id: 5,
     image: API,
     title: 'Store Manager',
-    github: 'https://github.com/alissonrh/store-manager',
+    github: '',
     link: '',
     type: 'backend'
+    // https://github.com/alissonrh/store-manager
   },
   {
     id: 6,
     image: IMG4,
     title: 'React Map App',
     github: 'https://github.com/alissonrh/map-app',
-    link: 'https://react-map-alisson.netlify.app/',
+    link: '',
     type: 'fullstack'
+    // https://react-map-alisson.netlify.app/
   },
   {
     id: 7,
     image: IMG5,
     title: 'App de Delivery',
-    github: 'https://github.com/alissonrh/project-delivery-app',
+    github: '',
     link: '',
     type: 'fullstack'
+    // https://github.com/alissonrh/project-delivery-app
   },
   {
     id: 8,
     image: IMG6,
     title: 'Projeto Solar System',
     github: 'https://github.com/alissonrh/solar-system',
-    link: 'https://alissonrh.github.io/solar-system/',
+    link: '',
     type: 'frontend'
+    // https://alissonrh.github.io/solar-system/
   },
   {
     id: 9,
     image: IMG9,
     title: 'Projeto Solar System',
     github: 'https://github.com/alissonrh/starwars-planets-search',
-    link: 'https://starwars-planets-search-alissonrh.vercel.app/',
+    link: '',
     type: 'frontend'
+    // https://starwars-planets-search-alissonrh.vercel.app/
   },
   {
     id: 10,
     image: API,
     title: 'Car Shop TS',
-    github: 'https://github.com/alissonrh/car-shop-ts',
+    github: '',
     link: '',
     type: 'backend'
+    // https://github.com/alissonrh/car-shop-ts
   },
   {
     id: 11,
     image: IMG10,
     title: 'Gerador de Relatório de Estoque',
-    github: 'https://github.com/alissonrh/report-generator-python',
+    github: '',
     link: '',
     type: 'backend'
+    // https://github.com/alissonrh/report-generator-python
   },
 ];
 
